@@ -1,4 +1,3 @@
-
 import numpy as np
 import libreria_funciones as lf
 
@@ -8,19 +7,6 @@ st.sidebar.image("Logo DMC.png")
 
 st.title("Mi primera aplicación")
 st.sidebar.title("Parámetros")
-
-st.title("Clase 3: Listas e inputs")
-valor = int(st.number_input("Ingrese un valor"))
-lista = list(range(valor))
-st.write(lista)
-
-
-st.title("Clase 4 Numpy")
-valor = st.slider("Selecciones un valor", 1,20)
-arreglo = np.arange(valor)
-st.write(arreglo)
-
-
 
 
 st.title("Clase 5 funciones")
