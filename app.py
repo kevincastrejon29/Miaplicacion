@@ -2,8 +2,8 @@ import streamlit as st
 import numpy as np
 import libreria_funciones as lf
 
-st.image("logo.png", width=100)
-st.sidebar.image("Logo DMC.png") 
+#st.image("logo.png", width=100)
+#st.sidebar.image("Logo DMC.png") 
 
 
 st.title("Mi primera aplicación")
